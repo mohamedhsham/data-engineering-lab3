@@ -6,12 +6,6 @@ This project profiles and cleans the January 2021 NYC Yellow Taxi dataset using 
 # Dataset used
 January 2021 NYC Yellow Taxi Trip Records.
 
-# Tools or Apps used
-- Python
-- Pandas
-- Jupyter Notebook
-- uv
-
 # Data Processing
 The dataset is processed in chunks of 100,000 rows to avoid loading the entire file into memory.
 
