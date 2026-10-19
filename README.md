@@ -24,10 +24,12 @@ The dataset is processed in chunks of 100,000 rows to avoid loading the entire f
 
 # Cleaning Rules
 - Remove records with invalid pickup dates.
+- Remove records with missing passenger counts.
+- Remove records with negative or zero fares.
 - Remove duplicate records.
-- Flag suspicious drop-off dates, fares, distances, and passenger counts.
+- Flag suspicious drop-off dates, trip distances, and zero passenger counts.
 
 # Results
 - Original records: 1,369,765
-- Cleaned records: 1,369,741
-- Removed records: 24
+- Cleaned records: 1,264,125
+- Removed records: 105,640
