@@ -1,0 +1,12 @@
+# python environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# datasets
+data/
+*.csv
+*.csv.gz
+
+# local configuration
+.env
